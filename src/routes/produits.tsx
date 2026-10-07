@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useSearch } from "@tanstack/react-router";
+import { createFileRoute, Link, Outlet, useChildMatches, useSearch } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { z } from "zod";
 import { PRODUCTS, type Category } from "@/lib/products";
@@ -26,8 +26,16 @@ export const Route = createFileRoute("/produits")({
       { property: "og:description", content: "Fruits, vegetables, groceries, frozen — exported from Egypt." },
     ],
   }),
-  component: Products,
+  component: ProductsLayout,
 });
+
+// produits.$id is a child route of /produits, so the parent must render <Outlet />
+// when a product page is matched — otherwise "Détails" only changes the URL.
+function ProductsLayout() {
+  const childMatches = useChildMatches();
+  if (childMatches.length > 0) return <Outlet />;
+  return <Products />;
+}
 
 function Products() {
   const { t, i18n } = useTranslation();
