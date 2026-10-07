@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "services": "Services",
+    "markets": "Marchés",
+    "about": "À propos",
+    "contact": "Contact",
+    "quote": "Devis WhatsApp"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "call": "Appeler",
+    "request_quote": "Demander un devis",
+    "view_all": "Voir tout",
+    "learn_more": "En savoir plus",
+    "send": "Envoyer",
+    "from_egypt": "Depuis l'Égypte",
+    "moq": "Quantité min.",
+    "packaging": "Conditionnement",
+    "shipping": "Livraison"
+  },
+  "hero": {
+    "eyebrow": "Fournisseur Premium · Le Caire, Égypte",
+    "title": "Le partenaire produits frais de l'Afrique francophone",
+    "subtitle": "Fruits, légumes, épicerie et surgelés exportés en conteneurs réfrigérés vers la Côte d'Ivoire, le Sénégal, le Cameroun, le Maroc, Maurice et plus.",
+    "cta_quote": "Demander un devis sur WhatsApp",
+    "cta_catalog": "Voir le catalogue"
+  },
+  "trust": {
+    "years": "ans d'export",
+    "countries": "pays desservis",
+    "tons": "tonnes / an",
+    "certs": "certifications"
+  },
+  "categories": {
+    "title": "Nos catégories de produits",
+    "subtitle": "Calibrés, contrôlés, prêts à exporter en conteneurs reefer.",
+    "fruits": {
+      "name": "Fruits frais",
+      "desc": "Mangues, oranges, grenades, raisins, dattes."
+    },
+    "vegetables": {
+      "name": "Légumes frais",
+      "desc": "Tomates, poivrons, oignons, pommes de terre, ail."
+    },
+    "groceries": {
+      "name": "Épicerie",
+      "desc": "Conserves, légumineuses, huiles, condiments."
+    },
+    "frozen": {
+      "name": "Surgelés",
+      "desc": "Légumes, fruits, frites IQF — chaîne du froid maîtrisée."
+    }
+  },
+  "capabilities": {
+    "title": "Pourquoi Dawliya Group",
+    "items": [
+      {
+        "t": "Sourcing direct",
+        "d": "Réseau de producteurs égyptiens sélectionnés et audités chaque saison."
+      },
+      {
+        "t": "Chaîne du froid",
+        "d": "Conteneurs reefer 20' / 40' avec suivi température port à port."
+      },
+      {
+        "t": "Documentation export",
+        "d": "Phytosanitaire, COO, halal, certificats EUR-MED — pris en charge."
+      },
+      {
+        "t": "Paiement flexible",
+        "d": "L/C, T/T, CAD selon le volume et la destination."
+      },
+      {
+        "t": "Marque blanche",
+        "d": "Mise en marque distributeur disponible sur conserves et surgelés."
+      },
+      {
+        "t": "Réactivité WhatsApp",
+        "d": "Réponse en moins de 2 h pendant les heures ouvrées."
+      }
+    ]
+  },
+  "markets": {
+    "title": "Nos marchés en Afrique",
+    "subtitle": "Lignes maritimes hebdomadaires depuis Alexandrie, Damiette et Port-Saïd.",
+    "list": [
+      "Côte d'Ivoire",
+      "Sénégal",
+      "Cameroun",
+      "RDC",
+      "Maroc",
+      "Maurice",
+      "Bénin",
+      "Togo",
+      "Gabon"
+    ]
+  },
+  "cta_band": {
+    "title": "Prêt à recevoir un devis aujourd'hui ?",
+    "subtitle": "Indiquez-nous le produit, le volume et le port d'arrivée. Réponse sous 2 heures.",
+    "button": "Discuter sur WhatsApp"
+  },
+  "products": {
+    "title": "Catalogue produits",
+    "subtitle": "Plus de 80 références. Demandez le PDF complet sur WhatsApp.",
+    "filter_all": "Tous",
+    "details": "Détails",
+    "spec": "Caractéristiques"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Une opération export complète, de la ferme au port d'arrivée."
+  },
+  "marketsPage": {
+    "title": "Nos marchés africains",
+    "subtitle": "Routes, ports et capacités logistiques.",
+    "lanes": "Lignes maritimes principales"
+  },
+  "about": {
+    "title": "À propos de Dawliya Group",
+    "lead": "Exportateur égyptien spécialisé dans les produits frais et l'épicerie destinés aux hôtels, hypermarchés et grossistes africains.",
+    "story_t": "Notre histoire",
+    "story": "Fondée par des professionnels du négoce agricole, Dawliya Group s'appuie sur un réseau de coopératives du Delta du Nil et de Haute-Égypte. Nous combinons la rigueur du sourcing, la maîtrise de la chaîne du froid et une compréhension fine des marchés africains francophones.",
+    "values_t": "Nos valeurs",
+    "values": [
+      {
+        "t": "Qualité",
+        "d": "Contrôle qualité à 3 niveaux : ferme, station de conditionnement, container."
+      },
+      {
+        "t": "Transparence",
+        "d": "Photos, vidéos et rapports envoyés avant chaque expédition."
+      },
+      {
+        "t": "Engagement",
+        "d": "Délais respectés, communication claire, pas de mauvaise surprise."
+      }
+    ],
+    "certs_t": "Certifications",
+    "certs": [
+      "GLOBAL G.A.P.",
+      "HACCP",
+      "ISO 22000",
+      "Halal",
+      "EUR-MED"
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "WhatsApp est le canal le plus rapide. Nous répondons dans la même journée.",
+    "form_name": "Votre nom",
+    "form_company": "Société",
+    "form_country": "Pays de destination",
+    "form_message": "Votre demande (produit, volume, port)",
+    "form_submit": "Envoyer la demande",
+    "or": "ou"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "tagline": "Produits frais d'Égypte, exportés vers l'Afrique."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "markets": "Markets",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "WhatsApp Quote"
+  },
+  "common": {
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "request_quote": "Request a quote",
+    "view_all": "View all",
+    "learn_more": "Learn more",
+    "send": "Send",
+    "from_egypt": "From Egypt",
+    "moq": "MOQ",
+    "packaging": "Packaging",
+    "shipping": "Shipping"
+  },
+  "hero": {
+    "eyebrow": "Premium Supplier · Cairo, Egypt",
+    "title": "Africa's trusted partner for fresh produce",
+    "subtitle": "Fruits, vegetables, groceries and frozen goods exported in reefer containers to Côte d'Ivoire, Senegal, Cameroon, Morocco, Mauritius and beyond.",
+    "cta_quote": "Get a WhatsApp quote",
+    "cta_catalog": "View catalog"
+  },
+  "trust": {
+    "years": "years exporting",
+    "countries": "countries served",
+    "tons": "tons / year",
+    "certs": "certifications"
+  },
+  "categories": {
+    "title": "Product categories",
+    "subtitle": "Graded, inspected, ready for reefer-container export.",
+    "fruits": {
+      "name": "Fresh Fruits",
+      "desc": "Mango, orange, pomegranate, grapes, dates."
+    },
+    "vegetables": {
+      "name": "Fresh Vegetables",
+      "desc": "Tomato, pepper, onion, potato, garlic."
+    },
+    "groceries": {
+      "name": "Groceries",
+      "desc": "Canned, pulses, oils, condiments."
+    },
+    "frozen": {
+      "name": "Frozen",
+      "desc": "IQF vegetables, fruits, fries — full cold chain."
+    }
+  },
+  "capabilities": {
+    "title": "Why Dawliya Group",
+    "items": [
+      {
+        "t": "Direct sourcing",
+        "d": "Audited Egyptian growers selected every season."
+      },
+      {
+        "t": "Cold chain",
+        "d": "20' / 40' reefer containers with port-to-port temperature logs."
+      },
+      {
+        "t": "Export paperwork",
+        "d": "Phyto, COO, Halal, EUR-MED — fully handled."
+      },
+      {
+        "t": "Flexible payment",
+        "d": "L/C, T/T, CAD depending on volume and destination."
+      },
+      {
+        "t": "Private label",
+        "d": "OEM available on canned and frozen ranges."
+      },
+      {
+        "t": "WhatsApp first",
+        "d": "Replies under 2h during business hours."
+      }
+    ]
+  },
+  "markets": {
+    "title": "Our African markets",
+    "subtitle": "Weekly sailings from Alexandria, Damietta and Port Said.",
+    "list": [
+      "Côte d'Ivoire",
+      "Senegal",
+      "Cameroon",
+      "DRC",
+      "Morocco",
+      "Mauritius",
+      "Benin",
+      "Togo",
+      "Gabon"
+    ]
+  },
+  "cta_band": {
+    "title": "Ready for a quote today?",
+    "subtitle": "Tell us the product, volume and arrival port. We reply within 2 hours.",
+    "button": "Chat on WhatsApp"
+  },
+  "products": {
+    "title": "Product catalog",
+    "subtitle": "80+ SKUs. Ask for the full PDF on WhatsApp.",
+    "filter_all": "All",
+    "details": "Details",
+    "spec": "Specifications"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "A complete export operation, from farm to arrival port."
+  },
+  "marketsPage": {
+    "title": "Our African markets",
+    "subtitle": "Routes, ports and logistics capacity.",
+    "lanes": "Main shipping lanes"
+  },
+  "about": {
+    "title": "About Dawliya Group",
+    "lead": "An Egyptian exporter specializing in fresh produce and groceries for African hotels, hypermarkets and wholesalers.",
+    "story_t": "Our story",
+    "story": "Founded by agricultural-trade professionals, Dawliya Group draws on a network of Nile Delta and Upper Egypt cooperatives. We combine sourcing rigor, cold-chain mastery and deep knowledge of Francophone African markets.",
+    "values_t": "Our values",
+    "values": [
+      {
+        "t": "Quality",
+        "d": "3-stage QC: farm, packhouse, container."
+      },
+      {
+        "t": "Transparency",
+        "d": "Photos, videos and reports sent before every shipment."
+      },
+      {
+        "t": "Commitment",
+        "d": "On-time, clearly communicated, no surprises."
+      }
+    ],
+    "certs_t": "Certifications",
+    "certs": [
+      "GLOBAL G.A.P.",
+      "HACCP",
+      "ISO 22000",
+      "Halal",
+      "EUR-MED"
+    ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "WhatsApp is the fastest channel. We reply same day.",
+    "form_name": "Your name",
+    "form_company": "Company",
+    "form_country": "Destination country",
+    "form_message": "Your request (product, volume, port)",
+    "form_submit": "Send request",
+    "or": "or"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Fresh produce from Egypt, exported across Africa."
+  }
+}
