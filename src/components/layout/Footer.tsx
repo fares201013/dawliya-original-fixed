@@ -45,7 +45,7 @@ export function Footer() {
       <div className="border-t border-cream/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-cream/60 lg:flex-row lg:px-8">
           <div>© {new Date().getFullYear()} Dawliya Group. {t("footer.rights")}</div>
-          <div>Cairo, Egypt → Africa</div>
+          <div>Cairo, Egypt → World</div>
         </div>
       </div>
     </footer>

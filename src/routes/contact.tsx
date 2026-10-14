@@ -21,8 +21,9 @@ function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const msg = `${t("nav.quote")}\n\n${form.name} (${form.company})\n${form.country}\n\n${form.message}`;
-    window.open(waLink(msg), "_blank");
+    const subject = `${t("common.request_quote")} — ${form.company || form.name}`;
+    const body = `${form.name}${form.company ? ` (${form.company})` : ""}\n${form.country}\n\n${form.message}`;
+    window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   return (
@@ -75,6 +76,7 @@ function Contact() {
             className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-emerald-deep px-6 py-3.5 text-sm font-semibold text-cream shadow-luxe hover:bg-primary">
             {t("contact.form_submit")} →
           </button>
+          <p className="text-center text-xs text-muted-foreground">{t("contact.form_hint")}</p>
           <p className="text-center text-xs text-muted-foreground">
             {t("contact.or")} <a href={waLink("Hello")} target="_blank" rel="noopener" className="text-emerald-deep underline">{t("common.whatsapp")}</a>
           </p>

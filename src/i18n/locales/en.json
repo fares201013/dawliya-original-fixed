@@ -22,8 +22,8 @@
   },
   "hero": {
     "eyebrow": "Premium Supplier · Cairo, Egypt",
-    "title": "Africa's trusted partner for fresh produce",
-    "subtitle": "Fruits, vegetables, groceries and frozen goods exported in reefer containers to Côte d'Ivoire, Senegal, Cameroon, Morocco, Mauritius and beyond.",
+    "title": "Your international partner for fresh produce",
+    "subtitle": "Fruits, vegetables, groceries and frozen goods exported in reefer containers worldwide, including Côte d'Ivoire, Senegal, Cameroon, Morocco, Mauritius and many more destinations.",
     "cta_quote": "Get a WhatsApp quote",
     "cta_catalog": "View catalog"
   },
@@ -83,8 +83,8 @@
     ]
   },
   "markets": {
-    "title": "Our African markets",
-    "subtitle": "Weekly sailings from Alexandria, Damietta and Port Said.",
+    "title": "Our international markets",
+    "subtitle": "Regular sailings from Alexandria, Damietta and Port Said to destinations worldwide.",
     "list": [
       "Côte d'Ivoire",
       "Senegal",
@@ -114,15 +114,30 @@
     "subtitle": "A complete export operation, from farm to arrival port."
   },
   "marketsPage": {
-    "title": "Our African markets",
-    "subtitle": "Routes, ports and logistics capacity.",
-    "lanes": "Main shipping lanes"
+    "title": "Our international markets",
+    "subtitle": "We export Egyptian produce to destinations around the world.",
+    "active": "Active market",
+    "howto": "How to order",
+    "steps": [
+      {
+        "t": "Your request",
+        "d": "Tell us the product, volume and destination port."
+      },
+      {
+        "t": "Our offer",
+        "d": "We reply with a quote within 2 hours on business days."
+      },
+      {
+        "t": "Shipment",
+        "d": "Loading in reefer containers, with export documents handled."
+      }
+    ]
   },
   "about": {
     "title": "About Dawliya Group",
-    "lead": "An Egyptian exporter specializing in fresh produce and groceries for African hotels, hypermarkets and wholesalers.",
+    "lead": "An Egyptian exporter specializing in fresh produce and groceries for hotels, hypermarkets and wholesalers worldwide.",
     "story_t": "Our story",
-    "story": "Founded by agricultural-trade professionals, Dawliya Group draws on a network of Nile Delta and Upper Egypt cooperatives. We combine sourcing rigor, cold-chain mastery and deep knowledge of Francophone African markets.",
+    "story": "Founded by agricultural-trade professionals, Dawliya Group draws on a network of Nile Delta and Upper Egypt cooperatives. We combine sourcing rigor, cold-chain mastery and deep knowledge of international markets.",
     "values_t": "Our values",
     "values": [
       {
@@ -145,20 +160,22 @@
       "ISO 22000",
       "Halal",
       "EUR-MED"
-    ]
+    ],
+    "certs_note": "The partners we work with hold these certifications."
   },
   "contact": {
     "title": "Contact us",
-    "subtitle": "WhatsApp is the fastest channel. We reply same day.",
+    "subtitle": "Write to us by email or WhatsApp. We reply the same day.",
     "form_name": "Your name",
     "form_company": "Company",
     "form_country": "Destination country",
     "form_message": "Your request (product, volume, port)",
     "form_submit": "Send request",
-    "or": "or"
+    "or": "or",
+    "form_hint": "This form opens your email app to send the request to our sales team."
   },
   "footer": {
     "rights": "All rights reserved.",
-    "tagline": "Fresh produce from Egypt, exported across Africa."
+    "tagline": "Fresh produce from Egypt, exported worldwide."
   }
 }

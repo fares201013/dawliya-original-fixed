@@ -3,14 +3,6 @@ import { useTranslation } from "react-i18next";
 import { z } from "zod";
 import { PRODUCTS, type Category } from "@/lib/products";
 import { waLink } from "@/lib/site";
-import catFruits from "@/assets/cat-fruits.jpg";
-import catVeg from "@/assets/cat-vegetables.jpg";
-import catGroc from "@/assets/cat-groceries.jpg";
-import catFrozen from "@/assets/cat-frozen.jpg";
-
-const IMG: Record<Category, string> = {
-  fruits: catFruits, vegetables: catVeg, groceries: catGroc, frozen: catFrozen,
-};
 
 const searchSchema = z.object({
   cat: z.enum(["fruits", "vegetables", "groceries", "frozen"]).optional(),
@@ -74,7 +66,7 @@ function Products() {
           {filtered.map((p) => (
             <article key={p.id} className="lift group flex flex-col overflow-hidden rounded-lg border border-border bg-card">
               <Link to="/produits/$id" params={{ id: p.id }} className="relative block aspect-square overflow-hidden bg-muted">
-                <img src={IMG[p.category]} alt={p.name[lang]} loading="lazy" width={600} height={600}
+                <img src={p.img} alt={p.name[lang]} loading="lazy" width={600} height={600}
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                 <span className="absolute top-3 start-3 rounded-full bg-emerald-deep/90 px-2.5 py-0.5 text-[10px] uppercase tracking-wider text-gold">
                   {t(`categories.${p.category}.name`)}

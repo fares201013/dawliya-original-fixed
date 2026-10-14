@@ -6,9 +6,9 @@ export const Route = createFileRoute("/a-propos")({
   head: () => ({
     meta: [
       { title: "À propos — Dawliya Group" },
-      { name: "description", content: "Exportateur égyptien de produits frais et épicerie pour l'Afrique. Certifications GLOBAL G.A.P., HACCP, ISO 22000, Halal." },
+      { name: "description", content: "Exportateur égyptien de produits frais et épicerie pour le monde entier. Certifications GLOBAL G.A.P., HACCP, ISO 22000, Halal." },
       { property: "og:title", content: "About — Dawliya Group" },
-      { property: "og:description", content: "Egyptian exporter, Francophone Africa B2B." },
+      { property: "og:description", content: "Egyptian exporter, worldwide B2B." },
     ],
   }),
   component: About,
@@ -49,6 +49,7 @@ function About() {
       <section className="bg-cream/60 py-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <h2 className="font-display text-3xl text-emerald-deep">{t("about.certs_t")}</h2>
+          <p className="mt-3 max-w-2xl text-sm text-muted-foreground">{t("about.certs_note")}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             {certs.map((c) => (
               <span key={c} className="rounded-full border border-gold/60 bg-card px-5 py-2.5 text-sm font-medium text-emerald-deep">{c}</span>

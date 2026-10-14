@@ -9,11 +9,13 @@ export interface Product {
   packaging: { fr: string; en: string; ar: string };
   origin: string;
   image: "fruits" | "vegetables" | "groceries" | "frozen";
+  img: string; // product image in /public/products
 }
 
 export const PRODUCTS: Product[] = [
   {
     id: "mango-keitt",
+    img: "/products/mango-keitt.svg",
     category: "fruits",
     name: { fr: "Mangue Keitt", en: "Keitt Mango", ar: "مانجو كيت" },
     desc: { fr: "Variété tardive, chair ferme, sucrée — saison juin-septembre.", en: "Late variety, firm flesh, sweet — June–September.", ar: "صنف متأخر، لب متماسك، حلو المذاق." },
@@ -21,6 +23,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "orange-valencia",
+    img: "/products/orange-valencia.svg",
     category: "fruits",
     name: { fr: "Orange Valencia", en: "Valencia Orange", ar: "برتقال فالنسيا" },
     desc: { fr: "Calibre 56-88, jus généreux, longue conservation.", en: "Size 56-88, juicy, long shelf life.", ar: "حجم 56-88، عصير وفير." },
@@ -28,6 +31,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "pomegranate",
+    img: "/products/pomegranate.svg",
     category: "fruits",
     name: { fr: "Grenade Wonderful", en: "Wonderful Pomegranate", ar: "رمان وندرفول" },
     desc: { fr: "Calibre 250-400 g, grains rouges intenses.", en: "Size 250-400 g, deep red arils.", ar: "حجم 250-400 جرام." },
@@ -35,6 +39,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "dates-medjool",
+    img: "/products/dates-medjool.svg",
     category: "fruits",
     name: { fr: "Dattes Medjool", en: "Medjool Dates", ar: "تمر مجدول" },
     desc: { fr: "Premium, jumbo, vide ou avec noyau.", en: "Premium jumbo, pitted or with pit.", ar: "ممتاز، كبير الحجم." },
@@ -42,6 +47,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "tomato-roma",
+    img: "/products/tomato-roma.svg",
     category: "vegetables",
     name: { fr: "Tomate Roma", en: "Roma Tomato", ar: "طماطم روما" },
     desc: { fr: "Allongée, ferme, idéale transformation et HORECA.", en: "Plum-shape, firm, ideal for HORECA.", ar: "مستطيلة، متماسكة." },
@@ -49,6 +55,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "potato-spunta",
+    img: "/products/potato-spunta.svg",
     category: "vegetables",
     name: { fr: "Pomme de terre Spunta", en: "Spunta Potato", ar: "بطاطس سبونتا" },
     desc: { fr: "Calibre 75+, peau jaune, polyvalente.", en: "Size 75+, yellow skin, all-purpose.", ar: "حجم 75+، قشرة صفراء." },
@@ -56,6 +63,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "onion-yellow",
+    img: "/products/onion-yellow.svg",
     category: "vegetables",
     name: { fr: "Oignon jaune", en: "Yellow Onion", ar: "بصل أصفر" },
     desc: { fr: "Calibre 60-80, sec, longue conservation.", en: "Size 60-80, dry, long shelf life.", ar: "حجم 60-80، جاف." },
@@ -63,6 +71,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "garlic-white",
+    img: "/products/garlic-white.svg",
     category: "vegetables",
     name: { fr: "Ail blanc", en: "White Garlic", ar: "ثوم أبيض" },
     desc: { fr: "Calibre 5,5+ cm, têtes pleines.", en: "Size 5.5+ cm, full heads.", ar: "حجم 5.5+ سم." },
@@ -70,6 +79,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "tomato-paste",
+    img: "/products/tomato-paste.svg",
     category: "groceries",
     name: { fr: "Concentré de tomate 28-30%", en: "Tomato Paste 28-30%", ar: "صلصة طماطم 28-30٪" },
     desc: { fr: "Boîte métal, marque distributeur disponible.", en: "Tin can, private label available.", ar: "علبة معدنية، علامة خاصة متاحة." },
@@ -77,6 +87,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "olive-oil",
+    img: "/products/olive-oil.svg",
     category: "groceries",
     name: { fr: "Huile d'olive extra vierge", en: "Extra Virgin Olive Oil", ar: "زيت زيتون بكر ممتاز" },
     desc: { fr: "Bouteille verre 500 ml / 1 L, première pression à froid.", en: "Glass 500 ml / 1 L, first cold-press.", ar: "زجاجة 500 مل / 1 لتر." },
@@ -84,6 +95,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "lentils-red",
+    img: "/products/lentils-red.svg",
     category: "groceries",
     name: { fr: "Lentilles rouges", en: "Red Lentils", ar: "عدس أحمر" },
     desc: { fr: "Triées, calibrées, ensachage personnalisable.", en: "Sorted, sized, custom packing.", ar: "مفرزة، تعبئة حسب الطلب." },
@@ -91,6 +103,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "iqf-okra",
+    img: "/products/iqf-okra.svg",
     category: "frozen",
     name: { fr: "Gombo IQF", en: "IQF Okra", ar: "بامية IQF" },
     desc: { fr: "Surgélation individuelle, calibres baby/whole.", en: "Individually frozen, baby/whole sizes.", ar: "تجميد فردي." },
@@ -98,6 +111,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "iqf-strawberry",
+    img: "/products/iqf-strawberry.svg",
     category: "frozen",
     name: { fr: "Fraises IQF", en: "IQF Strawberries", ar: "فراولة IQF" },
     desc: { fr: "Variété Festival, équeutées, classe A.", en: "Festival variety, hulled, grade A.", ar: "صنف فستيفال، منزوعة الأعناق." },
@@ -105,6 +119,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "iqf-mixed-veg",
+    img: "/products/iqf-mixed-veg.svg",
     category: "frozen",
     name: { fr: "Mélange légumes IQF", en: "IQF Mixed Vegetables", ar: "خضروات مشكلة IQF" },
     desc: { fr: "Petits pois, carottes, haricots, maïs.", en: "Peas, carrots, beans, corn.", ar: "بازلاء، جزر، فاصوليا، ذرة." },

@@ -1,10 +1,10 @@
 // Single source of truth for contact info — swap real numbers here.
 export const SITE = {
   name: "Dawliya Group",
-  tagline: "Premium Egyptian Produce — Exported to Africa",
+  tagline: "Premium Egyptian Produce — Exported Worldwide",
   whatsapp: "201015994394", // international format, no +
   phone: "+20 10 15994394",
-  email: "export@dawliyagroup.com",
+  email: "sales@dawliyagroup.com",
   address: "Cairo, Egypt",
   domain: "dawliyagroup.com",
 };

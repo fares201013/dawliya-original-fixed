@@ -1,15 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { PRODUCTS, type Category } from "@/lib/products";
+import { PRODUCTS } from "@/lib/products";
 import { waLink, SITE } from "@/lib/site";
-import catFruits from "@/assets/cat-fruits.jpg";
-import catVeg from "@/assets/cat-vegetables.jpg";
-import catGroc from "@/assets/cat-groceries.jpg";
-import catFrozen from "@/assets/cat-frozen.jpg";
-
-const IMG: Record<Category, string> = {
-  fruits: catFruits, vegetables: catVeg, groceries: catGroc, frozen: catFrozen,
-};
 
 export const Route = createFileRoute("/produits/$id")({
   loader: ({ params }) => {
@@ -54,7 +46,7 @@ function ProductPage() {
 
       <section className="mx-auto grid max-w-7xl gap-12 px-4 py-12 lg:grid-cols-2 lg:px-8">
         <div className="overflow-hidden rounded-lg border border-border bg-card">
-          <img src={IMG[product.category]} alt={product.name[lang]} width={1024} height={1024}
+          <img src={product.img} alt={product.name[lang]} width={1024} height={1024}
             className="h-full w-full object-cover" />
         </div>
 
@@ -97,7 +89,7 @@ function ProductPage() {
               {related.map((p) => (
                 <Link key={p.id} to="/produits/$id" params={{ id: p.id }} className="lift overflow-hidden rounded-lg border border-border bg-card">
                   <div className="aspect-square overflow-hidden">
-                    <img src={IMG[p.category]} alt={p.name[lang]} loading="lazy" width={400} height={400} className="h-full w-full object-cover" />
+                    <img src={p.img} alt={p.name[lang]} loading="lazy" width={400} height={400} className="h-full w-full object-cover" />
                   </div>
                   <div className="p-3">
                     <div className="font-display text-base text-emerald-deep">{p.name[lang]}</div>

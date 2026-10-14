@@ -12,10 +12,10 @@ import logistics from "@/assets/logistics.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dawliya Group — Produits frais d'Égypte vers l'Afrique" },
+      { title: "Dawliya Group — Produits frais d'Égypte vers le monde" },
       { name: "description", content: "Exportateur premium égyptien : fruits, légumes, épicerie, surgelés. Devis WhatsApp en moins de 2 heures." },
       { property: "og:title", content: "Dawliya Group — Premium Egyptian Produce" },
-      { property: "og:description", content: "B2B exporter for Francophone African hotels, hypermarkets and wholesalers." },
+      { property: "og:description", content: "B2B exporter for hotels, hypermarkets and wholesalers worldwide." },
     ],
   }),
   component: Home,
@@ -66,9 +66,9 @@ function Home() {
         {/* TRUST BAR */}
         <div className="relative border-t border-cream/10 bg-emerald-deep/80 backdrop-blur">
           <div className="mx-auto grid max-w-7xl grid-cols-2 divide-cream/10 px-4 py-6 text-center md:grid-cols-4 md:divide-x md:px-8 [&>div]:px-2 [&>div]:py-2">
-            <div><div className="font-display text-3xl text-gold">12+</div><div className="mt-1 text-xs uppercase tracking-wider text-cream/70">{t("trust.years")}</div></div>
+            <div><div className="font-display text-3xl text-gold">20+</div><div className="mt-1 text-xs uppercase tracking-wider text-cream/70">{t("trust.years")}</div></div>
             <div><div className="font-display text-3xl text-gold">15</div><div className="mt-1 text-xs uppercase tracking-wider text-cream/70">{t("trust.countries")}</div></div>
-            <div><div className="font-display text-3xl text-gold">25K</div><div className="mt-1 text-xs uppercase tracking-wider text-cream/70">{t("trust.tons")}</div></div>
+            <div><div className="font-display text-3xl text-gold">12K</div><div className="mt-1 text-xs uppercase tracking-wider text-cream/70">{t("trust.tons")}</div></div>
             <div><div className="font-display text-3xl text-gold">5</div><div className="mt-1 text-xs uppercase tracking-wider text-cream/70">{t("trust.certs")}</div></div>
           </div>
         </div>

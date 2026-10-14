@@ -28,7 +28,7 @@ export function Header() {
           </div>
           <div className="leading-tight">
             <div className="font-display text-lg font-semibold text-emerald-deep">Dawliya Group</div>
-            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Cairo · Africa</div>
+            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Cairo · World</div>
           </div>
         </Link>
 

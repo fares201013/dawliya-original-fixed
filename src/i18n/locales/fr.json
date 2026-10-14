@@ -22,8 +22,8 @@
   },
   "hero": {
     "eyebrow": "Fournisseur Premium · Le Caire, Égypte",
-    "title": "Le partenaire produits frais de l'Afrique francophone",
-    "subtitle": "Fruits, légumes, épicerie et surgelés exportés en conteneurs réfrigérés vers la Côte d'Ivoire, le Sénégal, le Cameroun, le Maroc, Maurice et plus.",
+    "title": "Votre partenaire international en produits frais",
+    "subtitle": "Fruits, légumes, épicerie et surgelés exportés en conteneurs réfrigérés vers les cinq continents : Côte d'Ivoire, Sénégal, Cameroun, Maroc, Maurice et bien d'autres destinations.",
     "cta_quote": "Demander un devis sur WhatsApp",
     "cta_catalog": "Voir le catalogue"
   },
@@ -83,8 +83,8 @@
     ]
   },
   "markets": {
-    "title": "Nos marchés en Afrique",
-    "subtitle": "Lignes maritimes hebdomadaires depuis Alexandrie, Damiette et Port-Saïd.",
+    "title": "Nos marchés à l'international",
+    "subtitle": "Expéditions régulières depuis Alexandrie, Damiette et Port-Saïd vers le monde entier.",
     "list": [
       "Côte d'Ivoire",
       "Sénégal",
@@ -114,15 +114,30 @@
     "subtitle": "Une opération export complète, de la ferme au port d'arrivée."
   },
   "marketsPage": {
-    "title": "Nos marchés africains",
-    "subtitle": "Routes, ports et capacités logistiques.",
-    "lanes": "Lignes maritimes principales"
+    "title": "Nos marchés à l'international",
+    "subtitle": "Nous exportons les produits égyptiens vers le monde entier.",
+    "active": "Marché actif",
+    "howto": "Comment commander",
+    "steps": [
+      {
+        "t": "Votre demande",
+        "d": "Indiquez-nous le produit, le volume et le port d'arrivée."
+      },
+      {
+        "t": "Notre offre",
+        "d": "Nous vous répondons avec un devis sous 2 heures en jour ouvré."
+      },
+      {
+        "t": "Expédition",
+        "d": "Chargement en conteneur réfrigéré et documents d'export pris en charge."
+      }
+    ]
   },
   "about": {
     "title": "À propos de Dawliya Group",
-    "lead": "Exportateur égyptien spécialisé dans les produits frais et l'épicerie destinés aux hôtels, hypermarchés et grossistes africains.",
+    "lead": "Exportateur égyptien spécialisé dans les produits frais et l'épicerie destinés aux hôtels, hypermarchés et grossistes à l'international.",
     "story_t": "Notre histoire",
-    "story": "Fondée par des professionnels du négoce agricole, Dawliya Group s'appuie sur un réseau de coopératives du Delta du Nil et de Haute-Égypte. Nous combinons la rigueur du sourcing, la maîtrise de la chaîne du froid et une compréhension fine des marchés africains francophones.",
+    "story": "Fondée par des professionnels du négoce agricole, Dawliya Group s'appuie sur un réseau de coopératives du Delta du Nil et de Haute-Égypte. Nous combinons la rigueur du sourcing, la maîtrise de la chaîne du froid et une connaissance approfondie des marchés internationaux.",
     "values_t": "Nos valeurs",
     "values": [
       {
@@ -145,20 +160,22 @@
       "ISO 22000",
       "Halal",
       "EUR-MED"
-    ]
+    ],
+    "certs_note": "Les partenaires avec lesquels nous travaillons sont titulaires de ces certifications."
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "WhatsApp est le canal le plus rapide. Nous répondons dans la même journée.",
+    "subtitle": "Écrivez-nous par e-mail ou WhatsApp. Nous répondons dans la même journée.",
     "form_name": "Votre nom",
     "form_company": "Société",
     "form_country": "Pays de destination",
     "form_message": "Votre demande (produit, volume, port)",
     "form_submit": "Envoyer la demande",
-    "or": "ou"
+    "or": "ou",
+    "form_hint": "Ce formulaire ouvre votre application e-mail pour envoyer la demande à notre équipe commerciale."
   },
   "footer": {
     "rights": "Tous droits réservés.",
-    "tagline": "Produits frais d'Égypte, exportés vers l'Afrique."
+    "tagline": "Produits frais d'Égypte, exportés dans le monde entier."
   }
 }

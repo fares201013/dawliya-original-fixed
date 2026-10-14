@@ -1,32 +1,23 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
+import { waLink } from "@/lib/site";
 
 export const Route = createFileRoute("/marches")({
   head: () => ({
     meta: [
-      { title: "Marchés africains — Dawliya Group" },
-      { name: "description", content: "Routes maritimes depuis l'Égypte vers la Côte d'Ivoire, le Sénégal, le Cameroun, le Maroc, Maurice et plus." },
-      { property: "og:title", content: "African markets — Dawliya Group" },
-      { property: "og:description", content: "Shipping lanes from Egypt to Francophone Africa." },
+      { title: "Marchés internationaux — Dawliya Group" },
+      { name: "description", content: "Exportation depuis l'Égypte vers le monde entier : Côte d'Ivoire, Sénégal, Cameroun, Maroc, Maurice et plus." },
+      { property: "og:title", content: "International markets — Dawliya Group" },
+      { property: "og:description", content: "Exports from Egypt to destinations worldwide." },
     ],
   }),
   component: Markets,
 });
 
-const LANES = [
-  { from: "Alexandria", to: "Abidjan (CI)", days: "16-20" },
-  { from: "Damietta", to: "Dakar (SN)", days: "12-16" },
-  { from: "Alexandria", to: "Douala (CM)", days: "20-24" },
-  { from: "Port Said", to: "Casablanca (MA)", days: "5-7" },
-  { from: "Damietta", to: "Port Louis (MU)", days: "22-28" },
-  { from: "Alexandria", to: "Lomé (TG)", days: "18-22" },
-  { from: "Alexandria", to: "Cotonou (BJ)", days: "18-22" },
-  { from: "Alexandria", to: "Pointe-Noire (CG)", days: "22-26" },
-];
-
 function Markets() {
   const { t } = useTranslation();
   const list = t("markets.list", { returnObjects: true }) as string[];
+  const steps = t("marketsPage.steps", { returnObjects: true }) as { t: string; d: string }[];
   return (
     <div>
       <section className="border-b border-border bg-cream/50">
@@ -41,32 +32,27 @@ function Markets() {
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {list.map((m) => (
             <div key={m} className="rounded-lg border border-border bg-card p-5">
-              <div className="text-xs uppercase tracking-wider text-gold">Marché actif</div>
+              <div className="text-xs uppercase tracking-wider text-gold">{t("marketsPage.active")}</div>
               <div className="mt-1 font-display text-xl text-emerald-deep">{m}</div>
             </div>
           ))}
         </div>
 
-        <h2 className="mt-16 font-display text-2xl text-emerald-deep">{t("marketsPage.lanes")}</h2>
-        <div className="mt-6 overflow-hidden rounded-lg border border-border">
-          <table className="w-full text-sm">
-            <thead className="bg-emerald-deep text-cream">
-              <tr>
-                <th className="px-4 py-3 text-start font-medium">Port d'origine</th>
-                <th className="px-4 py-3 text-start font-medium">Port d'arrivée</th>
-                <th className="px-4 py-3 text-start font-medium">Délai (jours)</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-border bg-card">
-              {LANES.map((l, i) => (
-                <tr key={i} className="hover:bg-cream/40">
-                  <td className="px-4 py-3">{l.from}</td>
-                  <td className="px-4 py-3 font-medium text-emerald-deep">{l.to}</td>
-                  <td className="px-4 py-3">{l.days}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <h2 className="mt-16 font-display text-2xl text-emerald-deep">{t("marketsPage.howto")}</h2>
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          {steps.map((st, i) => (
+            <div key={i} className="rounded-lg border border-border bg-card p-6">
+              <div className="flex h-10 w-10 items-center justify-center rounded-md bg-emerald-deep font-display text-lg text-gold">{String(i + 1).padStart(2, "0")}</div>
+              <h3 className="mt-4 font-display text-xl text-emerald-deep">{st.t}</h3>
+              <p className="mt-2 text-sm text-muted-foreground">{st.d}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-8">
+          <a href={waLink(t("cta_band.button"))} target="_blank" rel="noopener"
+            className="inline-flex items-center gap-2 rounded-md bg-gold px-6 py-3.5 text-sm font-semibold text-emerald-deep shadow-luxe">
+            {t("hero.cta_quote")} →
+          </a>
         </div>
       </section>
     </div>
